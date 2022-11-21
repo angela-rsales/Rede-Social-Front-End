@@ -1,0 +1,87 @@
+body {
+  align-items: center;
+  background-color: #66ddd0;
+  font-family: 'Anton', sans-serif, 'Righteous', cursive, 'Silkscreen', cursive;
+}
+
+.cardscontatos {
+padding: 100px;
+justify-content: space-around;
+flex-direction: row;
+display: flex;
+}
+
+.cardscontatos .card:hover {
+background-color: #f1f4fb;
+color: #fd9467;
+margin-top: -20px;
+box-shadow: 2px 15px 15px #fc4c02; 
+border-color:#fc4c02;
+}
+
+.cardscontatos .card:hover img{
+filter: invert(i);
+}
+
+.card {
+padding: 8px;
+width: 300px;
+background-color: #ffffff;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);   
+}
+
+.card img {
+width: 100%;
+height: auto;   
+}
+
+.card-info {
+padding: 15px 0 7px;
+text-align: center;
+display: flex;
+flex-direction: column;
+}
+  
+.card-info h6 {
+margin-bottom: 3px;
+font-size: 16px;
+font-weight: 700;
+font-family: "Raleway", sans-serif;
+text-transform: capitalize;
+}
+  
+.card-info span {
+margin-bottom: 5px;
+color: #888888;
+font-size: 13px;
+font-weight: 400;
+font-family: "Poppins", sans-serif;
+}
+  
+.card-info a {
+width: 30px;
+height: 30px;
+margin: 8px 2px 0;
+color: #333333;
+background-color: #f7f7f7;
+border-radius: 50%;
+font-size: 15px;
+text-decoration: none;
+line-height: 30px;
+transition: all 0.5s;
+}
+  
+.card-info a:hover:nth-child(1) {
+color: #ffffff;
+background-color: #517eb9;
+}
+  
+.card-info a:hover:nth-child(2) {
+color: #ffffff;
+background-color: #517eb9;
+}
+  
+.card-info a:hover:nth-child(3) {
+color: #ffffff;
+background-color: #517eb9;
+} 
