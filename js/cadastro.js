@@ -56,3 +56,25 @@ function buscaCep(){
       txtCep.addEventListener("blur", buscaCep);
   
   }
+
+  // botoes
+
+function login () {
+  window.location.href = "/html/login.html";
+}
+
+function cadastro () {
+  window.location.href = "/html/cadastro.html";
+}
+
+function recuperarSenha () {
+  window.location.href = "/html/resetsenha.html";
+}
+
+function mudarSenha () {
+  alert ("Se os dados informados estiverem cadastrados no nosso banco de dados, você receberá um link para recuperar o seu acesso. Isso pode levar alguns minutos.")
+}
+
+function entrar () {
+  alert ("Aguarde, você está sendo redirecionado")
+}

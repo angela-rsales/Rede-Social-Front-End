@@ -27,8 +27,8 @@
   </ul>
 
   <div class="col-md-3 text-end">
-    <button type="button" class="btn btn-light me-2" style="color: #66ddd0">LOGIN</button>
-    <button type="button" class="btn btn-light me-2" style="color: #66ddd0">CADASTRO</button>
+    <button onclick = "login()" class="btn btn-light me-2" style="color: #66ddd0">LOGIN</button>
+    <button onclick = "cadastro()" class="btn btn-light me-2" style="color: #66ddd0">CADASTRO</button>
   </div>
 </header>
 
@@ -59,20 +59,29 @@
                   Sobrenome válido é obrigatório.
                 </div>
               </div>
-  
+
               <div class="col-sm-6">
-                <label for="username" class="form-label">Nome de usuário</label>
-                <div class="input-group has-validation">
-                  <span class="input-group-text">@</span>
-                  <input type="text" class="form-control" id="username" placeholder="Id de usuário" required>
+                <label for="RG" class="form-label">RG</label>
+                <input type="text" class="form-control" id="firstName" placeholder="00.000.000-0" minlength="4" maxlength="12" required>
                 <div class="invalid-feedback">
-                  Nome de usuário válido é obrigatório.
-                  </div>
+                RG é obrigatório.
                 </div>
               </div>
   
+              <div class="col-sm-6">
+                <label for="username" class="form-label">Nome de usuário</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" id="username" placeholder="Id de usuário" required>
+                    <div class="invalid-feedback">
+                  Nome de usuário válido é obrigatório.
+                    </div>
+                </div>
+              </div>
+
+  
               <div class="col-12">
-                <label for="email" class="form-label">Email<span class="text-muted">(Opcional)</span></label>
+                <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" placeholder="você@exemplo.com">
                 <div class="invalid-feedback">
                 Insira um endereço de e-mail válido para receber as atualizações.
@@ -151,8 +160,8 @@
       </div>
     </main>
 
-  <script src="/js/bootstrap.bundle.min.js"></script>
-  <script src="/js/cadastro.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/cadastro.js"></script>
 
 </body>
 

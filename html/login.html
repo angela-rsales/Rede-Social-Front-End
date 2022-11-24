@@ -23,11 +23,12 @@
     <li><a href="/index.html" class="nav-link px-2" style="color: #fff">HOME</a></li>
     <li><a href="/html/comofunciona.html" class="nav-link px-2" style="color: #fff">COMO FUNCIONA</a></li>
     <li><a href="/html/quemsomos.html" class="nav-link px-2" style="color: #fff">QUEM SOMOS</a></li>
+
   </ul>
 
   <div class="col-md-3 text-end">
-    <button type="button" class="btn btn-light me-2" style="color: #66ddd0">LOGIN</button>
-    <button type="button" class="btn btn-light me-2" style="color: #66ddd0">CADASTRO</button>
+    <button onclick = "login()" class="btn btn-light me-2" style="color: #66ddd0">LOGIN</button>
+    <button onclick = "cadastro()" class="btn btn-light me-2" style="color: #66ddd0">CADASTRO</button>
   </div>
 </header>
 
@@ -51,10 +52,14 @@
           <input type="checkbox" value="remember-me"> Lembrar-me
         </label>
       </div>
-      <button class="w-100 btn btn-lg btn-primary" type="submit" style="background-color: #fc4c02">Entrar</button>
+      <button onclick = "entrar ()" class="w-100 btn btn-lg btn-primary" type="submit" style="background-color: #fc4c02">Entrar</button>
+      <button onclick = "recuperarSenha ()" class="w-100 btn btn-lg btn-primary" type="submit" style="background-color: #fc4c02">Esqueci a senha</button>
     </form>
   </main>
 </body>
+
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/cadastro.js"></script>
 
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color: #fc4c02">
   <div class="col-md-4 d-flex align-items-center">
