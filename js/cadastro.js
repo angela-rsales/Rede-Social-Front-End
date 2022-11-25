@@ -67,7 +67,7 @@ function cadastro () {
   window.location.href = "/html/cadastro.html";
 }
 
-function resetpassword () {
+function reset () {
   window.location.href = "/html/resetsenha.html";
 }
 
