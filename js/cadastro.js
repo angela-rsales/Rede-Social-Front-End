@@ -45,7 +45,7 @@ function buscaCep(){
   
   }
   
-  else { alert ("Erro")}
+  else { alert ("Erro, verifique o CEP")}
   }
   }
   
@@ -77,4 +77,16 @@ function mudarSenha () {
 
 function entrar () {
   alert ("Aguarde, você está sendo redirecionado")
+}
+
+function começar () {
+  window.location.href = "/html/cadastro.html";
+}
+
+function contato () {
+  window.location.href = "/html/contato.html";
+}
+
+function enviarmensagem () {
+  alert ("Em breve você terá uma resposta, aguarde.")
 }
